@@ -1,0 +1,251 @@
+ body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #E2C218;
+            overflow-y: hidden;
+        }
+        
+        .main-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 1164px;
+            height: 94px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 30px;
+        }
+        
+        .logo {
+            background-image: url(./images/Шапка.png);
+            width: 269px;
+            height: 120px;
+        }
+        
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            width: 458px;
+            margin: 0;
+        }
+        
+        .list-item {
+            font-size: 22px;
+            line-height: 18px;
+            cursor: pointer;
+        }
+        
+        .list-item:hover {
+            border-bottom: 1px solid black;
+        }
+        
+        .phone {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .phone-image {
+            background-image: url(./images/smartphone\ 1.png);
+            width: 35px;
+            height: 34px;
+        }
+        
+        .phone-number {
+            font-weight: 500;
+            font-size: 18px;
+            width: 139px;
+            height: 22px;
+        }
+        
+        .cart-image {
+            background-color: black;
+            border-radius: 50%;
+            background-image: url(./images/shopping-cart\ \(1\)\ 1.png);
+            background-size: 28px 23px;
+            background-repeat: no-repeat;
+            background-position-x: 45%;
+            background-position-y: center;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .cart {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .price {
+            margin-left: 5px;
+        }
+        
+        .cart-items-button {
+            background-image: url(./images/down-arrow-svgrepo-com.svg);
+            width: 15px;
+            height: 18px;
+            background-repeat: no-repeat;
+            margin-top: 3px;
+            margin-left: 3px;
+        }
+        
+        .front-page {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .offer {
+            margin-left: 469.5px;
+            width: 490px;
+            height: 217px;
+        }
+        
+        .offer-header {
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        
+        .offer-button {
+            background-color: #EC7474;
+            border: none;
+            padding: 12px 9px;
+            cursor: pointer;
+            border-radius: 16px;
+            color: white;
+            background: linear-gradient(to right, #EC7474, #A40808);
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .effect-offer {
+            background-image: url(./images/sabaka.png);
+            background-position-y: 85%;
+            width: 713px;
+            height: 783px;
+            margin-right: 20px;
+        }
+        
+        .animal-types {
+            /* display: flex; */
+            width: 711px;
+            /* height: 50px; */
+            margin-left: 469.5px;
+            position: relative;
+        }
+        
+        .animal-type {
+            background-color: white;
+            width: 202px;
+            height: 45px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            cursor: pointer;
+        }
+        
+        .first-type {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        
+        .second-type {
+            position: absolute;
+            left: 35%;
+            bottom: 0;
+        }
+        
+        .third-type {
+            position: absolute;
+            left: 70%;
+            bottom: 0;
+        }
+        
+        .animal-type:hover {
+            position: absolute;
+            bottom: 0;
+            height: 202px;
+            transition: .5s ease-in-out;
+        }
+        
+        .animal-type:hover .cat {
+            display: block;
+        }
+        
+        .animal-type:hover .cat {
+            display: block;
+        }
+        
+        .animal-type:hover .cat {
+            display: block;
+        }
+        /* .animal-type:hover {
+            position: absolute;
+            bottom: 0;
+            height: 202px;
+        } */
+        
+        .animal-type>div {
+            margin-left: 20px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        
+        .animal-type-text {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .arrow {
+            background-image: url("./images/681008_arrows_512x512.png");
+            width: 10px;
+            height: 10px;
+            background-size: 10px 10px;
+            margin-left: 10px;
+        }
+        
+        .cat {
+            background-image: url("./images/Кошенята.png");
+            background-repeat: no-repeat;
+            width: 142px;
+            height: 300px;
+            margin: auto;
+            display: none;
+        }
+        
+        .dog {
+            background-image: url("./images/Цуценя.png");
+            background-repeat: no-repeat;
+            width: 142px;
+            height: 300px;
+            margin: auto;
+            display: none;
+        }
+        
+        .hamster {
+            background-image: url("./images/Хом\'ячок.png");
+            background-repeat: no-repeat;
+            width: 160px;
+            height: 300px;
+            margin: auto;
+            display: none;
+        }
